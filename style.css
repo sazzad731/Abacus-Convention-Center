@@ -1,0 +1,84 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.color{
+  color: #3F87F5;
+}
+
+.color:hover{
+  color: #3F87F5;
+}
+
+.border-radius{
+  border-radius: 0;
+}
+
+.toast{
+  --bs-toast-max-width: 258px;
+}
+
+.fw-regular{
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.icon-bg{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(82, 67, 194, 0.103693);
+  color: #5243C2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check{
+  display: flex;
+  align-items: center;
+}
+
+.button-bg{
+  background-color:#faebf3;
+}
+
+.button-bg:hover{
+  background-color: #faebf3;
+}
+
+.font-primary{
+  color: #3F87F5;
+}
+
+.font-primary:hover{
+  color: #3F87F5;
+}
+
+.selected{
+  background-color: rgba(255, 255, 255, 0.158);
+  color: #FFFFFF;
+}
+
+.start-100{
+  left: 84% !important;
+}
+
+.btn-outline-light:hover{
+  background: none !important;
+}
+
+.size{
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 425px){
+  .mobile-l{
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .mb-sm-5{
+    margin-bottom: 3rem;
+  }
+}
